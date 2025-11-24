@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP4422 - Clock Tower Scene</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Clock Tower Animation</h1>
+        <canvas id="webgl-canvas" width="800" height="600"></canvas>
+        <div id="controls">
+            <button id="rotateClockwise">顺时针旋转</button>
+            <button id="rotateCounterClockwise">逆时针旋转</button>
+            <button id="toggleAnimation">暂停/继续动画</button>
+        </div>
+        <div id="instructions">
+            <p>鼠标拖拽: 旋转视角 | 鼠标滚轮: 缩放</p>
+        </div>
+    </div>
+    <script src="js/matrix.js"></script>
+    <script src="js/shaders.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
